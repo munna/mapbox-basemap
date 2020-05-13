@@ -1,0 +1,41 @@
+{
+  "name": "mapbox-basemap",
+  "version": "1.0.0",
+  "description": "Include external basemap with MapBox from different providers like here, google, statman etc.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munna/mapbox-basemap.git"
+  },
+  "keywords": [
+    "MapBox",
+    "LayerSwitcher",
+    "BaseMap"
+  ],
+  "author": "Munna bhakta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/munna/mapbox-basemap/issues"
+  },
+  "homepage": "https://github.com/munna/mapbox-basemap#readme",
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^4.5.1",
+    "env-cmd": "^10.1.0",
+    "immutable": "^4.0.0-rc.12",
+    "mapbox-gl": "^1.10.0",
+    "mapbox-layer-switcher": "0.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
